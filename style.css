@@ -1,0 +1,93 @@
+h1{
+    color:rgb(173, 81, 81)
+}
+
+
+.header{
+    background-color: antiquewhite;
+    font: size 20px;
+    font-family: "papyrus";
+    margin-left: 20px;
+    margin-right:20px;
+}
+
+p{
+    font-family: "papyrus";
+    font-weight: bold;
+}
+
+.navigation{
+    background-color: rgb(203, 169, 233);
+    display:flex;
+    justify-content:flex-end;
+    
+}
+
+.navigation *{
+    
+    padding:5px;
+    margin-left: 10px;
+    margin-right: 10px
+    
+}
+
+.footer{
+    display: flex;
+    justify-content:flex-end
+}
+
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border:solid;
+
+
+}
+.item{
+    border:solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    padding: 20px;
+    position:relative;
+
+}
+
+.item p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+    
+}
+
+.item:hover p{
+     opacity:1;
+     
+}
+
+.item:hover img{
+    opacity: 30%;
+}
+body{
+background-color: #e1daf6;
+border:solid;
+}
+
+a:link{
+    color:red;
+background-color: transparent;
+}
+
+a:visited{
+    color:purple;
+
+} 
+
+a:hover{
+    color:red;
+}
+
